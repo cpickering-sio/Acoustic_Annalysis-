@@ -1,0 +1,10 @@
+size(x)
+
+ans =
+
+       20000           3
+
+imagesc(t,f,Pdb);
+colormap("jet")
+soundsc(x(:,1),data.Fs)
+soundsc(x(:,1),2 * data.Fs)
